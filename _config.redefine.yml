@@ -1,0 +1,164 @@
+# ============================================================
+# Hexo Theme Redefine
+# ============================================================
+
+info:
+  name: hexo-theme-redefine
+  version: 2.9.0
+  docs: https://redefine-docs.ohevan.com/
+  description: A simple & fast & pure theme for Hexo
+
+# ============================================================
+# Site
+# ============================================================
+site:
+  favicon: /images/favicon.ico
+  og_image:
+
+# ============================================================
+# Top Navigation Bar
+# ============================================================
+navbar:
+  links:
+    Home:
+      path: /
+      icon: fa-regular fa-house
+    Archives:
+      path: /archives
+      icon: fa-regular fa-archive
+    Tags:
+      path: /tags
+      icon: fa-regular fa-tags
+    About:
+      path: /about
+      icon: fa-regular fa-user
+  auto_hide: false
+  color:
+    left: "#f78736"
+    right: "#367df7"
+    transparency: 35
+  text_color:
+    light: "#fff"
+    dark: "#d0d0d0"
+
+# ============================================================
+# Home Page
+# ============================================================
+home:
+  hero:
+    enable: true
+    title: Yuki's Blog
+    subtitle:
+      enable: true
+      type_animation: true
+      text:
+        - 记录生活与技术
+    announcement: ""
+  postlist:
+    enable: true
+    type: large  # large | compact
+
+# ============================================================
+# Article
+# ============================================================
+articles:
+  style:
+    font_size: 16px
+    line_height: 1.75
+    image_border_radius: 14px
+    image_alignment: center
+    image_caption: false
+    link_icon: true
+    title_alignment: left
+  license:
+    enable: false
+  toc:
+    enable: true
+    max_depth: 3
+    number: true
+    expand: true
+  copyright:
+    enable: false
+  lazyload: true
+
+# ============================================================
+# Code Block
+# ============================================================
+code_block:
+  copy: true
+  style: mac  # mac | simple
+  font:
+    enable: false
+
+# ============================================================
+# Comment
+# ============================================================
+comment:
+  enable: false
+
+# ============================================================
+# Footer
+# ============================================================
+footer:
+  since: 2024
+  statistics:
+    enable: true
+  runtime:
+    enable: true
+    start_time: "04/23/2026 00:00:00"
+  custom_text: ""
+
+# ============================================================
+# Sidebar
+# ============================================================
+sidebar:
+  enable: true
+  position: left
+  first_item: menu  # menu | toc
+  announcement:
+    enable: false
+  board:
+    enable: true
+    content: 记录生活与技术
+  avatar:
+    enable: true
+    url: /images/avatar.png
+    rounded: true
+  author_info:
+    enable: true
+    show_level: false
+  social_links:
+    enable: false
+
+# ============================================================
+# Search
+# ============================================================
+search:
+  enable: false
+
+# ============================================================
+# Plugins
+# ============================================================
+plugins:
+  katex:
+    enable: false
+  mathjax:
+    enable: false
+  mermaid:
+    enable: false
+  aplayer:
+    enable: false
+  swiper:
+    enable: false
+
+# ============================================================
+# Custom Font
+# ============================================================
+font:
+  enable: false
+
+# ============================================================
+# CDN
+# ============================================================
+cdn:
+  enable: false
