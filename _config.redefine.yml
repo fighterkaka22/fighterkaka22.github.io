@@ -51,11 +51,11 @@ navbar:
 # Home Banner
 # ============================================================
 home_banner:
-  enable: false
+  enable: true
   style: fixed
   image:
-    light: /images/wallhaven-wqery6-light.webp
-    dark: /images/wallhaven-wqery6-dark.webp
+    light: /images/IMG_7457.JPG
+    dark: /images/IMG_7457.JPG
   title: 昔我往矣
   subtitle:
     text:
