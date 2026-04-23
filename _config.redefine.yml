@@ -7,13 +7,19 @@ info:
   version: 2.9.0
   docs: https://redefine-docs.ohevan.com/
   description: A simple & fast & pure theme for Hexo
+  title: 昔我往矣
+  subtitle: 记录生活与技术
+  author: Yuki Sun
+  url: https://fighterkaka22.github.io
 
 # ============================================================
-# Site
+# Global Settings
 # ============================================================
-site:
-  favicon: /images/favicon.ico
-  og_image:
+global:
+  open_graph:
+    enable: true
+    image: /images/redefine-og.webp
+    description: 记录生活与技术
 
 # ============================================================
 # Top Navigation Bar
@@ -42,21 +48,45 @@ navbar:
     dark: "#d0d0d0"
 
 # ============================================================
+# Home Banner
+# ============================================================
+home_banner:
+  enable: false
+  style: fixed
+  image:
+    light: /images/wallhaven-wqery6-light.webp
+    dark: /images/wallhaven-wqery6-dark.webp
+  title: 昔我往矣
+  subtitle:
+    text:
+      - 记录生活与技术
+    hitokoto:
+      enable: false
+    typing_speed: 100
+    backing_speed: 80
+    starting_delay: 500
+    backing_delay: 1500
+    loop: true
+    smart_backspace: true
+  text_color:
+    light: "#fff"
+    dark: "#d1d1b6"
+  text_style:
+    title_size: 2.8rem
+    subtitle_size: 1.5rem
+    line_height: 1.2
+
+# ============================================================
 # Home Page
 # ============================================================
 home:
-  hero:
+  sidebar:
     enable: true
-    title: 昔我往矣
-    subtitle:
-      enable: true
-      type_animation: true
-      text:
-        - 记录生活与技术
-    announcement: ""
+    position: left
+    first_item: menu
   postlist:
     enable: true
-    type: large  # large | compact
+    type: large
 
 # ============================================================
 # Article
