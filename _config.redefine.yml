@@ -47,7 +47,7 @@ navbar:
 home:
   hero:
     enable: true
-    title: Yuki's Blog
+    title: 昔我往矣
     subtitle:
       enable: true
       type_animation: true
