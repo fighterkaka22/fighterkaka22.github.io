@@ -100,12 +100,11 @@ comment:
 # Footer
 # ============================================================
 footer:
-  since: 2024
+  since: 2026
   statistics:
     enable: true
   runtime:
-    enable: true
-    start_time: "04/23/2026 00:00:00"
+    enable: false
   custom_text: ""
 
 # ============================================================
@@ -126,6 +125,7 @@ sidebar:
     rounded: true
   author_info:
     enable: true
+    name: Yuki
     show_level: false
   social_links:
     enable: false
